@@ -1,0 +1,13 @@
+926 [main] INFO  Factory.DriverFactory - browser chrome
+4704 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+4873 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Patrycja\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+23328 [main] INFO  Basic.BaseTest - WebDriver started successfully
+23332 [main] INFO  SIIShop.SIIShopLoginTest - URL naszej aplikacji to: https://www.pudelek.pl/
+25001 [main] INFO  Basic.BaseTest - Driver has been closed properly
+25022 [main] INFO  Factory.DriverFactory - browser chrome
+25056 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+25250 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Patrycja\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+27705 [main] INFO  Basic.BaseTest - WebDriver started successfully
+27706 [main] INFO  SIIShop.SIIShopLoginTest - URL naszej aplikacji to: http://146.59.32.4/index.php
+28438 [main] INFO  Basic.BaseTest - Driver has been closed properly
+28446 [main] INFO  Basic.BaseTest - database closed

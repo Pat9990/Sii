@@ -1,5 +1,7 @@
-Pages\LoginPage.class
 SIIShop\SIIShopRegisterUser.class
 SIIShop\SIIShopLoginTest.class
+Basic\BaseTest.class
+Factory\DriverFactory.class
+Pages\LoginPage.class
 Pages\HomePage.class
 SIIShop\SIIShopPurchae.class

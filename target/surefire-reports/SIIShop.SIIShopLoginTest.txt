@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: SIIShop.SIIShopLoginTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.967 s - in SIIShop.SIIShopLoginTest
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 9.48 s <<< FAILURE! - in SIIShop.SIIShopLoginTest
+loginToPudelek  Time elapsed: 9.013 s  <<< ERROR!
+java.lang.NullPointerException
+	at SIIShop.SIIShopLoginTest.loginToPudelek(SIIShopLoginTest.java:45)
+

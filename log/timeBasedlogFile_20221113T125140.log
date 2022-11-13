@@ -1,0 +1,8 @@
+422 [main] INFO  SIIShop.SIIShopLoginTest - Start database
+1395 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+1445 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Patrycja\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+7896 [main] INFO  SIIShop.SIIShopLoginTest - URL naszej aplikacji to: http://146.59.32.4/index.php
+7897 [main] INFO  SIIShop.SIIShopLoginTest - Przegl¹darka: chrome
+7916 [main] INFO  SIIShop.SIIShopLoginTest - Actual title 
+9301 [main] INFO  SIIShop.SIIShopLoginTest - Driver has been closed properly
+9326 [main] INFO  SIIShop.SIIShopLoginTest - database closed

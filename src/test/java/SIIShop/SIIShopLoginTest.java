@@ -1,39 +1,48 @@
 package SIIShop;
 
+import Basic.BaseTest;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.junit.jupiter.api.Test;
+import lombok.extern.slf4j.Slf4j;
+import org.junit.jupiter.api.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.time.Duration;
 import java.util.Arrays;
 
-public class SIIShopLoginTest {
+import static org.assertj.core.api.Assertions.assertThat;
+
+@Slf4j
+public class SIIShopLoginTest extends BaseTest {
     private WebDriver driver;
+    //private static final Logger log = LoggerFactory.getLogger(SIIShopLoginTest.class);
+
     @Test
-    void loginToApplication(){
-        String browser = "chrome";
+    void loginToApplication() throws InterruptedException{
+
         String url = "http://146.59.32.4/index.php";
+        System.out.println("URL naszej aplikacji to: "+url);
+        log.info("URL naszej aplikacji to: "+url);
+        String actualTitle = driver.getTitle();
+        log.info("Actual title " + actualTitle);
+//        String expectedTitle = "TesterSii";
+//        //asercja
+//        assertThat(expectedTitle).isEqualTo(actualTitle);
+//        assertThat(actualTitle).startsWith("T");
+//        assertThat(actualTitle).isNotBlank();
 
-        WebDriverManager.chromedriver().setup();
 
-        ChromeOptions chromeOptions = new ChromeOptions();
-        chromeOptions.addArguments("start-maximized");
-        chromeOptions.addArguments("--ignore-certificate-errors");
-        chromeOptions.setExperimentalOption("excludeSwitches", Arrays.asList("disable-popup-blocking", "enable-automation"));
-        driver = new ChromeDriver(chromeOptions);
-        //driver.manage().window().maximize();
-        driver.get(url);
-        //WAIT strategy
-        //1. implicit -> czeka w zależnosci od różnych opóźnień środowisk
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(2));//czekanie na załadowanie webelementów
+    }
+    @Test
+    void loginToPudelek() throws InterruptedException{
 
-        //2. explicit ->
-        //3. fluent ->
-        System.out.println("Test passed");
-        driver.quit();
-
+        String url = "https://www.pudelek.pl/";
+        System.out.println("URL naszej aplikacji to: "+url);
+        log.info("URL naszej aplikacji to: "+url);
+        String actualTitle = driver.getTitle();
+        log.info("Actual title " + actualTitle);
     }
 }

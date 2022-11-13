@@ -1,0 +1,4 @@
+5573 [main] INFO  Basic.BaseTest - WebDriver started successfully
+5586 [main] INFO  SIIShop.SIIShopLoginTest - URL naszej aplikacji to: https://www.pudelek.pl/
+9292 [main] INFO  Basic.BaseTest - Driver has been closed properly
+9413 [main] INFO  Basic.BaseTest - database closed
